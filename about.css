@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #f0f0f0;
+}
+
+.container h1 {
+    padding-top: 85px;
+    padding-bottom: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+
+}
+
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#contact {
+    background-color: #fff;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map {
+    width: 50%;
+    height: 300px;
+    background-color: #ddd;
+}
+
+#contact-form {
+    width: 45%;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #E2AD53;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #eda831;
+}
+
+.iletisim-kutusu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.bilgi {
+    text-align: center;
+}
+
+.bilgi img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.bilgi h3 {
+    margin: 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.bilgi p {
+    color: #666;
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Siyah ve %80 saydam arka plan */
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-brand {
+    color: #fff !important;
+}
+
+.map {
+    background-color: transparent;
+}

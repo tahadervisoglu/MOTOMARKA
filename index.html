@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motorlar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="Site.html">MotoMarka</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Site.html">Anasayfa <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Motolar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aksesuarlar.html">Aksesuarlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container1" id="bike">
+    <div class="content">
+      <h2>THE BMW</h2>
+      <h1>G 310 R</h1>
+      <p>
+        G 310 R'nin gücü, hafifliği ve çevikliğinde yatıyor. Bisiklet, sadece büyük şehir karmaşasında eğlence sunmakla
+        kalmıyor, aynı zamanda köşeleri hızlıca değiştirirken şehir sınırlarını yeniden tanımlarken de eğlenceli bir
+        deneyim sunuyor.
+      </p>
+      <h3>Renginizi Seçiniz.</h3>
+      <div class="colour-select">
+        <div id="red"></div>
+        <div id="blue"></div>
+        <div id="black"></div>
+      </div>
+
+      <h3>Teknik Özellikler</h3>
+      <br>
+      <div class="tech-specs">
+        <ul>
+          <li><strong>Marka:</strong> BMW</li>
+          <li><strong>Model:</strong> G 310R</li>
+          <li><strong>Motor Hacmi:</strong> 251 - 350 cm3</li>
+          <li><strong>Vites:</strong> Manuel</li>
+          <li><strong>Tipi:</strong> Naked / Roadster</li>
+          <li><strong>Soğutma:</strong> Su</li>
+          <li><strong>Menşei:</strong> Almanya</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer class="footer py-4 bg-secondary text-white text-center">
+    <div class="1container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-6">
+          <p>&copy; 2024 MotoMarka - Tüm Hakları Saklıdır</p>
+          <p><a href="#" class="text-white">Kullanım Şartları</a> | <a href="#" class="text-white">Gizlilik
+              Politikası</a></p>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <a href="https://www.instagram.com/motomarka/" target="_blank" class="text-white">
+                <i class="bi bi-instagram"></i> Instagram
+              </a>
+            </div>
+            <div class="col-md-12">
+              <a href="index.html" class="text-white">
+                <i class="bi bi-motorbike"></i> G310R
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    let redBtn = document.getElementById("red");
+    let blueBtn = document.getElementById("blue");
+    let blackBtn = document.getElementById("black");
+    let bike = document.getElementById("bike");
+
+    redBtn.onclick = function () {
+      bike.style.backgroundImage = "url(/BMW1.png)";
+    };
+    blueBtn.onclick = function () {
+      bike.style.backgroundImage = "url(/BMW2.png)";
+    };
+    blackBtn.onclick = function () {
+      bike.style.backgroundImage = "url(/BMW3.png)";
+    };
+  </script>
+</body>
+
+</html>
